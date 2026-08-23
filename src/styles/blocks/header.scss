@@ -60,11 +60,11 @@
   }
 }
 
-.is-active {
+.nav__link.is-active {
   color: var(--blue-color);
 }
 
-.is-active::after {
+.nav__link.is-active::after {
   content: '';
   position: absolute;
   left: 0;
